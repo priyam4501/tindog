@@ -1,0 +1,203 @@
+/* Font Family CSS 
+        font-family: 'Montserrat',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  size : 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.tagline{
+  color:#fff;
+}
+
+.container-fluid{
+  padding: 1% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.rabbit-brand{
+  height:150px;
+  width:60px;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+  right: 24%;
+  width: 19%;
+  transform:rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+#features{
+  padding:7% 15%; 
+  background-color: #fff;
+  position: relative;
+}
+
+ @media (max-width: 1035px){
+  #title{
+    text-align:center;
+  }
+
+  .title-image{
+    position:static;
+    width:60%;
+    transform: rotate(0);
+  }
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.feature-box p{
+  color:#8f8f8f;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonials-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.dog-img{
+  border-radius: 100%;
+  height:200px;
+  width:200px;
+}
+
+/* Call to Action Section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align:center;
+  padding:7% 15%;
+}
+
+#cta h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color:white;
+}
+
+/* Footer Section */
+
+#footer{
+  padding:7% 15% 3%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer-icons{
+  padding:0 2% 4%;
+  transition:all .3s , ease-out;
+}
+
+.footer-icons:hover{
+  color:#ff4c68;
+  transform: translate(0 , -5px);
+}
+
+#footer p{
+  color:#8f8f8f;
+}
